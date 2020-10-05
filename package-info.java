@@ -5,4 +5,4 @@
  * @author joana
  *
  */
-package pyramid;
+package pattern;
