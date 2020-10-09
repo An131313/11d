@@ -5,4 +5,4 @@
  * @author smg192E
  *
  */
-package randomArray;
+package input06;
