@@ -1,11 +1,27 @@
-package randomArray;
+package tenArray;
+
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
 
 public class RandomArray {
 	public static void main(String[] args) {
-        int[] ar1 = new int[20];
-        for(int i = 0; i < 20; i++) {
-            ar1[i] = (int)(Math.random()* 100);
-            System.out.print(ar1[i] + "  ");
+		Scanner input = new Scanner(System.in);
+
+		int[] array = new int[10];
+		System.out.println("Enter the 10 numbers now.");
+        for (int i = 0 ; i < array.length; i++ ) {
+           array[i] = input.nextInt();
         }
-    }
+        Random rand = new Random();
+		
+		for (int i = 0; i < array.length; i++) {
+			int randomIndexToSwap = rand.nextInt(array.length);//random number from 0 to 9 including
+			int change = array[randomIndexToSwap];
+			array[randomIndexToSwap] = array[i];
+			array[i] = change;
+		}
+        System.out.println(Arrays.toString(array));
+        
+	}
 }
