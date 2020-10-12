@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author joana
+ * @author smg192E
  *
  */
-package anagram;
+package arayEnterValue;
