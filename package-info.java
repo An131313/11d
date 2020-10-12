@@ -5,4 +5,4 @@
  * @author joana
  *
  */
-package transposedArray;
+package cards;
