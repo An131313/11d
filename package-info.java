@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author smg192E
+ * @author joana
  *
  */
-package arayEnterValue;
+package arrTest;
